@@ -67,8 +67,18 @@ export function Footer() {
           <div className="text-sm text-muted-foreground">
             © 2024 Bharat Pashudhan. All rights reserved. | Government of India Initiative
           </div>
-          <div className="flex items-center gap-1 text-sm text-muted-foreground">
-            Made with <Heart className="h-4 w-4 text-red-500" /> for Indian farmers
+          <div className="flex items-center gap-4">
+            <a 
+              href="https://bharatpashudhan.gov.in" 
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              bharatpashudhan.gov.in
+            </a>
+            <div className="flex items-center gap-1 text-sm text-muted-foreground">
+              Made with <Heart className="h-4 w-4 text-red-500" /> for Indian farmers
+            </div>
           </div>
         </div>
       </div>
