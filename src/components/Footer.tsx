@@ -69,10 +69,8 @@ export function Footer() {
           </div>
           <div className="flex items-center gap-4">
             <a 
-              href="https://bharatpashudhan.gov.in" 
+              href="/" 
               className="text-sm text-muted-foreground hover:text-foreground transition-colors underline"
-              target="_blank"
-              rel="noopener noreferrer"
             >
               bharatpashudhan.gov.in
             </a>
